@@ -1,0 +1,71 @@
+*, *::after, *::before{
+margin : 0;
+    padding: 0;
+
+
+}
+html, body{
+    height: 100%;
+    
+}
+body{
+    background-color: rgb(226, 116, 83);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-body{
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 15px;
+    font-size: 3rem;
+}
+.card-btn button{
+    color: #262626;
+    padding: 25px 25px;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+cursor: pointer;
+transition: 0.5s;
+}
+button#decrement{
+    background: rgb(241, 229, 47);
+}
+button#decrement:hover{
+background: #d8a310;
+color: white;
+}
+
+button#reset{
+    background: rgb(201, 71, 71);
+}
+button#reset:hover{
+background: #e20909;
+color: white;
+}
+
+
+
+button#increment{
+    background: rgb(78, 212, 44);
+}
+button#increment:hover{
+background: #024207;
+color: white;
+}
